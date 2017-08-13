@@ -44,10 +44,10 @@ ${SSH_COMMAND} "echo \"23.253.207.208 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDL8x
 scp reboot.sh  ${LOGIN}:${HOME_DIRECTORY}
 ${SSH_COMMAND} "chmod 777 ${HOME_DIRECTORY}/reboot.sh"
 
-scp ../../sg_upgrade_try.sh ${LOGIN}:${HOME_DIRECTORY}
+scp sg_upgrade_try.sh ${LOGIN}:${HOME_DIRECTORY}
 ${SSH_COMMAND} "chmod 777 ${HOME_DIRECTORY}/sg_upgrade_try.sh"
 
-scp ../../sg_upgrade.sh ${LOGIN}:${HOME_DIRECTORY}
+scp sg_upgrade.sh ${LOGIN}:${HOME_DIRECTORY}
 ${SSH_COMMAND} "chmod 777 ${HOME_DIRECTORY}/sg_upgrade.sh"
 
 ${SSH_COMMAND} "echo > ${HOME_DIRECTORY}/proxy_command"
