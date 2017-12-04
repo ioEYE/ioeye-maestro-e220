@@ -20,5 +20,5 @@ cp -f rc10-rc.local /etc/rc.local
 cp -f rc10-systemreboot.sh  /usr/sbin/systemreboot.sh
 /bin/chmod 777 /usr/sbin/systemreboot.sh
 
-cp ioeye_maestro-e220_17.1.0_17.1.0 ${HOME_DIRECTORY}/instamsg
+cp ioeye_maestro-e220_17.2.0_17.2.0 ${HOME_DIRECTORY}/instamsg
 
